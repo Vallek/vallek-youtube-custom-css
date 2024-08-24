@@ -15,3 +15,6 @@
 ### on subscriptions page
 * shorts
 * top ui panel (same class as shorts but useless and too tall anyways)
+
+## Known Problems
+* controls with no shadow on white video are barley visible. Will look into it) 
