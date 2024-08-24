@@ -14,4 +14,4 @@
 
 ### on subscriptions page
 * shorts
-* top ui panel (same class as shorts but useless and too heigh anyways)
+* top ui panel (same class as shorts but useless and too tall anyways)
