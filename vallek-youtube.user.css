@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           youtube.com - 8/24/2024, 10:15:51 PM
 @namespace      github.com/openstyles/stylus
-@version        1.3.3
+@version        1.3.4
 @description    Hide annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -17,15 +17,13 @@
     display: none !important;
   }
   .ytp-timed-markers-container,
-  .ytp-chapter-hover-container.ytp-exp-chapter-hover-container {
+  .ytp-chapter-hover-container.ytp-exp-chapter-hover-container,
+  .ytp-volume-slider-handle {
     box-shadow: 0 0 2px rgba(0,0,0,.5);
   }
   .ytp-time-wrapper,
   .ytp-chapter-title-content {
-    text-shadow: 0 0 3px rgba(0,0,0,1) !important;
-  }
-  .ytp-volume-slider-handle {
-    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    text-shadow: 0 0 2px rgba(0,0,0,1) !important;
   }
   /* Hide shorts from sidebar */
   ytd-reel-shelf-renderer {
