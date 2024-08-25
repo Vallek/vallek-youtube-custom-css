@@ -16,12 +16,16 @@
   .ytp-next-button {
     display: none !important;
   }
-  /* Make timeline and timer more visible without shadow */
-  .ytp-timed-markers-container {
+  .ytp-timed-markers-container,
+  .ytp-chapter-hover-container.ytp-exp-chapter-hover-container {
     box-shadow: 0 0 2px rgba(0,0,0,.5);
   }
-  .ytp-time-wrapper {
-    text-shadow: 0 0 2px rgba(0,0,0,1) !important;
+  .ytp-time-wrapper,
+  .ytp-chapter-title-content {
+    text-shadow: 0 0 3px rgba(0,0,0,1) !important;
+  }
+  .ytp-volume-slider-handle {
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
   }
   /* Hide shorts from sidebar */
   ytd-reel-shelf-renderer {
