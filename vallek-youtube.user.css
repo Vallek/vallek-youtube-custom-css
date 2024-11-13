@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           youtube.com - 8/24/2024, 10:15:51 PM
 @namespace      github.com/openstyles/stylus
-@version        1.3.5
+@version        1.3.6
 @description    Hide annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -36,7 +36,7 @@
     color: white !important;
     font-weight: 700;
     text-shadow: 0 0 2px rgba(0,0,0,1) !important;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
     padding: 0 0.3em;
   }
   /* Hide shorts from sidebar */
