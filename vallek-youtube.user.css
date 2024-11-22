@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.3.10
+@version        1.3.11
 @description    Hide annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -23,6 +23,9 @@
   .ytp-chapter-hover-container.ytp-exp-chapter-hover-container,
   .ytp-volume-slider-handle {
     box-shadow: 0 0 2px rgba(0,0,0,1);
+  }
+  .ytp-progress-bar {
+    background-color: rgba(0,0,0,0.5);
   }
   .ytp-volume-slider-handle {
     background-color: rgb(255, 255, 255) !important;
