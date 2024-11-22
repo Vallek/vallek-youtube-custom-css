@@ -17,4 +17,4 @@
 * top ui panel (same class as shorts but useless and too tall anyways)
 
 ## What it adds
-* Ads more visible outlines, smaller shadows and background-colors to make UI visible without big shadow.
+* Adds more visible outlines, smaller shadows and background-colors to make UI visible without big shadow.
