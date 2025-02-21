@@ -6,6 +6,8 @@
 * round corners
 * shadow behind ui controls
 * next video button
+* shorts from sidebar
+* current channel block from sidebar
 
 ### on search results page
 * shorts
