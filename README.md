@@ -18,7 +18,7 @@
 ### on subscriptions page
 * shorts
 * top ui panel (same class as shorts but useless and too tall anyways)
-* option to choose number of videos per row (turn off for responsive, mobile etc)
+* option to choose number of videos per row and min screen width (1366px by default)
 
 ## What it adds
 * Adds more visible outlines, smaller shadows and background-colors to make UI visible without big shadow.
