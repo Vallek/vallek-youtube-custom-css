@@ -89,7 +89,7 @@
   /* Number of videos per row on desktop */
   @media (min-width: 1366px) {
     .style-scope.ytd-rich-grid-renderer {
-      --ytd-rich-grid-items-per-row: 4 !important;
+      --ytd-rich-grid-items-per-row: 5 !important;
     }
     /* left margin fix */
     .style-scope.ytd-rich-grid-renderer > ytd-rich-item-renderer {
