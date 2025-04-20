@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.4.1
+@version        1.4.2
 @description    Hide annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -89,7 +89,11 @@
   /* Number of videos per row on desktop */
   @media (min-width: 1366px) {
     .style-scope.ytd-rich-grid-renderer {
-      --ytd-rich-grid-items-per-row: 5 !important;
+      --ytd-rich-grid-items-per-row: 4 !important;
+    }
+    /* left margin fix */
+    .style-scope.ytd-rich-grid-renderer > ytd-rich-item-renderer {
+      margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important;
     }
   }
 }
