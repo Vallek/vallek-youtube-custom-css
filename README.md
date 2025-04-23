@@ -8,6 +8,7 @@
 * next video button
 * shorts from sidebar
 * current channel block from sidebar
+* don't hide cursor unless fullscreen
 
 ### on search results page
 * shorts
