@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.5.0
+@version        1.5.1
 @description    Hide annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -9,7 +9,7 @@
 @-moz-document url-prefix("https://www.youtube.com/watch?") {
   /* No round corners */
   #ytd-player.ytd-watch-flexy {
-    border-radius: unset !important;
+    border-radius: 0 !important;
   }
   /* Hide controls shadow, next button */
   .ytp-gradient-bottom,
@@ -86,12 +86,20 @@
   ytd-horizontal-card-list-renderer {
     display: none !important;  
   }
+  /* No round corners */
+  .ytd-thumbnail {
+    border-radius: 0 !important;
+  }
 }
 
 @-moz-document url-prefix("https://www.youtube.com/feed/subscriptions") {
   /* Hide shorts and top ui panel from subs page */
   ytd-rich-section-renderer {
     display: none !important;
+  }
+  /* No round corners */
+  .ytd-thumbnail {
+    border-radius: 0 !important;
   }
   /* Number of videos per row on desktop */
   @media (min-width: 1366px) {
