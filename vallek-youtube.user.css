@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.5.4
+@version        1.5.5
 @description    Hide annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -83,6 +83,10 @@
   }
   .ytp-fullscreen .video-stream.html5-main-video {
     cursor: revert;
+  }
+  /* Hide crisis panel */
+  #clarify-box {
+    display: none !important;
   }
 }
 
