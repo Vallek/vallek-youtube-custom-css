@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.5.3
+@version        1.5.4
 @description    Hide annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -89,6 +89,7 @@
 @-moz-document url-prefix("https://www.youtube.com/results?search_query=") {
   /* Hide shorts, suggestions, crisis panel and people also search from search results */
   ytd-shelf-renderer,
+  grid-shelf-view-model,
   ytd-reel-shelf-renderer.ytd-item-section-renderer,
   ytd-emergency-onebox-renderer,
   ytd-horizontal-card-list-renderer {
