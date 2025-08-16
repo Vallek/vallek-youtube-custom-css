@@ -1,6 +1,6 @@
 # My Youtube userstyle to hide annoying shit
 
-**08.2025 upd** does not work with new yt video ui. I will look into options here. Maybe will just disable watch ui part (most likley). Maybe will make style that restores old ui (not likley too much work). Maybe adapt to existing style that restores old ui (couldn't find one yet).
+**08.2025 upd** does not work with new yt video ui. I will look into options here. Maybe will just disable watch ui part (most likely). Maybe will make style that restores old ui (not likely too much work). Maybe adapt to existing style that restores old ui (couldn't find one yet).
 
 ## What it hides
 
