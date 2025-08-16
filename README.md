@@ -1,5 +1,7 @@
 # My Youtube userstyle to hide annoying shit
 
+**upd** does not work with new yt video ui on Chrome. Firefox still gets old one at least for me.
+
 ## What it hides
 
 ### on videos page
