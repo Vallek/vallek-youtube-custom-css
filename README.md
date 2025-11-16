@@ -9,6 +9,8 @@
 * shorts from sidebar
 * current channel block from sidebar
 * don't hide cursor unless fullscreen
+* history popup
+* ai crap
 
 ### on search results page
 * shorts
