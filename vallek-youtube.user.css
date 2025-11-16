@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.6.0
+@version        1.6.1
 @description    Hide annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -36,6 +36,10 @@
   }
   /* Hide crisis panel */
   #clarify-box {
+    display: none !important;
+  }
+  /* Hide turn on history popup */
+  ytd-feed-nudge-renderer {
     display: none !important;
   }
 }
