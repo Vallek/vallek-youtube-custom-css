@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.6.4
+@version        1.6.5
 @description    Hide annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -43,7 +43,8 @@
     display: none !important;
   }
   /* Hide ai */
-  #expandable-metadata {
+  #expandable-metadata,
+  #flexible-item-buttons > yt-button-view-model:first-of-type {
     display: none !important;     
   } 
 }
