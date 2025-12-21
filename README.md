@@ -1,7 +1,5 @@
 # My Youtube userstyle to hide annoying shit
 
-**10.2025 upd** removed old controls css as new ui rolled out to more people everywhere it looks like. Maybe will make style that restores old ui (not likely too much work). Maybe adapt to existing style that restores old ui (couldn't find one yet).
-
 ## What it hides
 
 ### on videos page
