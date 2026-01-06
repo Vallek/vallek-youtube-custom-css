@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.6.7
+@version        1.6.8
 @description    Hide annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -40,10 +40,6 @@
   }
   /* Hide turn on history popup */
   ytd-feed-nudge-renderer {
-    display: none !important;
-  }
-  /* Hides ai button */
-  #flexible-item-buttons > yt-button-view-model.ytd-menu-renderer:nth-of-type(1) {
     display: none !important;
   }
 }
