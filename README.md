@@ -1,8 +1,9 @@
 # My Youtube userstyle to hide annoying shit
 
-## What it hides
+## What it hides/changes
 
 ### on videos page
+* sidebar width (also brings back full video height)
 * round corners
 * shorts from sidebar
 * current channel block from sidebar
