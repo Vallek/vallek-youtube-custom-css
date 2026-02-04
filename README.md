@@ -1,4 +1,4 @@
-# My Youtube userstyle to hide annoying shit
+# My Youtube userstyle to hide  nad fix annoying shit
 
 ## What it hides/changes
 
