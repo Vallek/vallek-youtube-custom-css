@@ -9,6 +9,7 @@
 * current channel block from sidebar
 * don't hide cursor unless fullscreen
 * history popup
+* fold description
 
 ### on search results page
 * shorts
