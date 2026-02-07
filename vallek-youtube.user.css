@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           Hide/fix youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.7.2
-@description    Hide annoying shit on youtube
+@version        1.8
+@description    Hides and fixes annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
 
@@ -50,6 +50,10 @@
   }  
   .yt-lockup-view-model--horizontal.yt-lockup-view-model--compact .yt-lockup-view-model__content-image {
     width: 45% !important; 
+  }
+  /* Fold description and live chat on load */
+  .style-scope.ytd-text-inline-expander {
+    overflow: hidden; max-height: 4rem;
   }
 }
 
