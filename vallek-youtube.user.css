@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide/fix youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.8
+@version        1.8.1
 @description    Hides and fixes annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -22,7 +22,8 @@
     border-radius: 0 !important;
   }
   /* Hide shorts from sidebar */
-  ytd-reel-shelf-renderer {
+  ytd-reel-shelf-renderer,
+  #dismissible {
     display: none !important;
   }
   /* Hide current channel block from sidebar */
