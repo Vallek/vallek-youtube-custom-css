@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide/fix youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.8.1
+@version        1.9
 @description    Hides and fixes annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -11,6 +11,10 @@
   .ytd-thumbnail,
   yt-thumbnail-view-model {
     border-radius: 0 !important;
+  }
+  /* Hide voice search button */
+  #voice-search-button {
+    display: none !important;
   }
 }
 
