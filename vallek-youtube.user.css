@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide/fix youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.9.1
+@version        1.9.2
 @description    Hides and fixes annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -15,6 +15,16 @@
   /* Hide voice search button */
   #voice-search-button {
     display: none !important;
+  }
+  /* Number of videos per row on desktop */
+  @media (min-width: 1366px) {
+    .style-scope.ytd-rich-grid-renderer {
+      --ytd-rich-grid-items-per-row: 4 !important;
+    }
+    /* left margin fix */
+    .style-scope.ytd-rich-grid-renderer > ytd-rich-item-renderer {
+      margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important;
+    }
   }
 }
 
