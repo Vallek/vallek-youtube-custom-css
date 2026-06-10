@@ -23,3 +23,5 @@
 
 ## What it adds
 * option to choose number of videos per row and min screen width (1366px by default)
+
+[Support me of boosty](https://boosty.to/vallek) if you like this style)
