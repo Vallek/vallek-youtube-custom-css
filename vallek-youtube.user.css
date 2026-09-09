@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Hide/fix youtube shit
 @namespace      github.com/openstyles/stylus
-@version        1.9.2
+@version        1.9.3
 @description    Hides and fixes annoying shit on youtube
 @author         Vallek
 ==/UserStyle== */
@@ -26,6 +26,13 @@
       margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important;
     }
   }
+  /* Don't hide cursor unless fullscreen (blinking fix) */
+  .video-stream.html5-main-video {
+    cursor: pointer;
+  }
+  .ytp-fullscreen .video-stream.html5-main-video {
+    cursor: revert;
+  }
 }
 
 @-moz-document url-prefix("https://www.youtube.com/watch?"),
@@ -44,13 +51,6 @@
   ytd-channel-renderer {
     display: none !important;
   }
-  /* Don't hide cursor unless fullscreen (blinking fix) */
-  .video-stream.html5-main-video {
-    cursor: initial;
-  }
-  .ytp-fullscreen .video-stream.html5-main-video {
-    cursor: revert;
-  }
   /* Hide crisis panel */
   #clarify-box {
     display: none !important;
@@ -65,6 +65,13 @@
   }  
   .yt-lockup-view-model--horizontal.yt-lockup-view-model--compact .yt-lockup-view-model__content-image {
     width: 45% !important; 
+  }
+  /* Don't hide cursor unless fullscreen (blinking fix) */
+  .video-stream.html5-main-video {
+    cursor: initial;
+  }
+  .ytp-fullscreen .video-stream.html5-main-video {
+    cursor: revert;
   }
 }
 @-moz-document url-prefix("https://www.youtube.com/live/") {
